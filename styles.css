@@ -156,3 +156,37 @@ a .enter__label:hover{
 .bottom__button-arrow{
   cursor: pointer;
 }
+
+.top{
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  width: 70px;
+  height: 25px;
+  z-index: 1;
+}
+
+.speaker{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: url('img/speaker.svg') no-repeat center / contain;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  filter: opacity(65%);
+}
+
+.player{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: url('img/player.svg') no-repeat center / contain;
+  left: 45px;
+  cursor: pointer;
+  filter: opacity(65%);
+}
+
+.speaker:hover, .player:hover{
+  filter: opacity(100%);
+}
